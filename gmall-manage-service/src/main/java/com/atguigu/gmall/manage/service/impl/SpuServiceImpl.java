@@ -24,6 +24,8 @@ public class SpuServiceImpl implements SpuService {
     @Autowired
     private PmsProductSaleAttrValueMapper pmsProductSaleAttrValueMapper;
 
+
+
     @Override
     public List<PmsProductInfo> spuList(String catalog3Id) {
         PmsProductInfo pmsProductInfo = new PmsProductInfo();
